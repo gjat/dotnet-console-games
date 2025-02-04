@@ -113,6 +113,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reversi", "Projects\Reversi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Person Shooter", "Projects\First Person Shooter\First Person Shooter.csproj", "{5A18DEF8-A8C3-4B5B-B127-9BA0A0767287}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{39609F51-A68A-4FF1-9418-D8AD2E3B2829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterMaze", "Projects\MonsterMaze\MonsterMaze.csproj", "{73ED2A21-8479-46E6-A060-37D4FBFCABC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -339,11 +343,18 @@ Global
 		{5A18DEF8-A8C3-4B5B-B127-9BA0A0767287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A18DEF8-A8C3-4B5B-B127-9BA0A0767287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A18DEF8-A8C3-4B5B-B127-9BA0A0767287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ED2A21-8479-46E6-A060-37D4FBFCABC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ED2A21-8479-46E6-A060-37D4FBFCABC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ED2A21-8479-46E6-A060-37D4FBFCABC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ED2A21-8479-46E6-A060-37D4FBFCABC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC4CAF97-A0CE-4999-8062-EC511A41764F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73ED2A21-8479-46E6-A060-37D4FBFCABC8} = {39609F51-A68A-4FF1-9418-D8AD2E3B2829}
 	EndGlobalSection
 EndGlobal

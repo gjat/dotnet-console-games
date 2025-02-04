@@ -542,5 +542,15 @@
 			"console": "externalTerminal",
 			"stopAtEntry": false,
 		},
+		{
+			"name": "Monster Maze",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "Build Monster Maze",
+			"program": "${workspaceFolder}/Projects/MonsterMaze/bin/Debug/MonsterMaze.dll",
+			"cwd": "${workspaceFolder}/Projects/MonsterMaze/bin/Debug",
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+		},
 	],
 }
